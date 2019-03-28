@@ -1,0 +1,62 @@
+.background{
+    width: 100%;
+    background-color: #ffffff;
+    .list-background{
+        width: 1200px;
+        margin-top: 60px;
+        margin-bottom: 65px;
+        transform: translate(-50%, 0);
+        left: 50%;
+        .main-title-border{
+            width: 100%;
+            .main-title{
+                width: 100%;
+                font-size: 24px;
+                font-weight: bold;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: 29px;
+                letter-spacing: normal;
+                color: #5a5a5a;
+            }
+        }
+        .select-list-border{
+            width: 100%;
+            margin-top: 30px;            
+            .selectList{                
+                font-size: 18px;
+                font-weight: bold;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: 21px;
+                letter-spacing: normal;                
+                cursor: pointer;
+                $activate-navigation-color: #ff8a01;
+                $non-activate-navigation-color: #aaaaaa;
+
+                color: $non-activate-navigation-color;
+                &:visited {
+                    color: $non-activate-navigation-color;
+                }
+
+                &--is-activate {
+                    color: $activate-navigation-color;
+                    &:visited {
+                        color: $activate-navigation-color;
+                    }                
+                }
+                .select-list{
+                    margin-right: 15px;
+                }                
+            }           
+        }
+        .content-border{
+            width: 100%;
+            margin-top: 30px;            
+        }
+        .paging-box{
+            width: 100%;
+            margin-top: 60px;           
+        }
+    }
+}

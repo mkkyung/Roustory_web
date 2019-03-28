@@ -1,0 +1,86 @@
+@import 'landing';
+@import 'style.scss';
+
+
+.info-contain{
+    width: 870px;
+    height: 979px;
+    float: right;
+    overflow: auto;
+    .info-close{
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        right: 0px;
+        top: 0px;
+        margin-right: 15px;
+        margin-top: 15px;
+        background-color: white;
+        z-index: 10;
+        border-radius: 100%;
+        cursor: pointer;
+    }
+    .info-header{
+        width: 100%;
+        height: 60px;
+        background-color: #ff8a01;
+    }
+    .info-body-contain{
+        width: 100%;
+        background-color: #eeeeee;
+        .info-body{
+            width: calc(100% - 60px);
+            min-height: 960px;
+            padding-top:30px;
+            padding-bottom: 30px;
+            left: 50%;
+            transform: translate(-50%,0);
+            .info-image-contain{
+                left: 50%;
+                transform: translate(-50%,0);
+                .info-image{
+                    width:100%;
+                    height: 480px;
+                }
+            }
+            .info-title{
+                width: 100%;
+                margin-top: 30px;
+                .title{
+                    width: 100%;
+                    font-size: 24px;
+                    font-weight: bold;
+                    color: #2f2f2e;
+                }
+            }
+            .info-title-text{
+                width: 100%;
+                margin-top: 15px;
+                .text{
+                    width: 100%;
+                    font-size: 18px;
+                    color: #2f2f2e
+                }
+            }
+            .info-content-title{
+                width: 100%;
+                margin-top: 15px;
+                .title{
+                    width: 100%;
+                    font-size: 24px;
+                    font-weight: bold;
+                    color: #2f2f2e
+                }
+            }
+            .info-content{
+                width: 100%;
+                margin-top: 15px;
+                .content{
+                    width: 100%;
+                    font-size: 18px;
+                    color: #2f2f2e
+                }
+            }
+        }
+    }
+}

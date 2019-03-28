@@ -1,0 +1,71 @@
+.pagination-border-box{
+    transform: translate(-50%, 0);
+    left: 50%;
+    .left-box{
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+        .left-icon-box{
+            width: 21px;
+            height: 21px;
+            transform: translate(-50%, -50%);
+            left: 50%;
+            top: 50%;
+            .left-icon{
+                font-size: 15px;
+                line-height: 21px;        
+            }
+        }        
+    }
+    .number{
+        width: 30px;
+        height: 30px;
+        border: solid 1px #dddddd;
+        margin-left: 13px;
+        display: inline-block;
+        cursor: pointer;
+        $activate-navigation-color: #ff8a01;
+        $non-activate-navigation-color: #aaaaaa;
+
+        color: $non-activate-navigation-color;
+        &:visited {
+            color: $non-activate-navigation-color;
+        }
+
+        &--is-activate {
+            color: $activate-navigation-color;
+            &:visited {
+                color: $activate-navigation-color;
+            }
+        }
+        .number-box{
+            width: 21px;
+            text-align: center;
+            font-size: 15px;
+            line-height: 21px;
+            transform: translate(-50%, -50%);
+            left: 50%;
+            top: 50%;
+            
+        }
+    }
+    .right-box{
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+        margin-left: 13px;
+        .right-icon-box{
+            width: 21px;
+            height: 21px;
+            transform: translate(-50%, -50%);
+            left: 50%;
+            top: 50%;
+            .right-icon{
+                font-size: 15px;
+                line-height: 21px;
+                float: right;      
+            }
+        }        
+    }
+}    
+

@@ -1,0 +1,47 @@
+@import 'landing';
+@import 'style.scss';
+
+// header scss
+.header-login-contain{
+    width:100%;
+    .header-contain{
+        width: calc(100% - 495px);
+                cursor: pointer;
+                transform: translate(0, -50%);
+                top: 50%;
+                $activate-navigation-color: #aaaaaa;
+                $non-activate-navigation-color: #ff8a01;
+
+                color: $non-activate-navigation-color;
+                &:visited {
+                    color: $non-activate-navigation-color;
+                }
+
+                &--is-activate {
+                    color: $activate-navigation-color;
+                    &:visited {
+                        color: $activate-navigation-color;
+                    }
+                }
+        // width: 100%;
+        // height: 60px;
+        // background-color: #ff8a01;
+        .header-contain2{
+            width: 1200px;
+            height: 100%;
+            transform: translate(-50%,0);
+            left: 50%;
+            .header-title-contain{
+                float: right;
+                .haeder-title{
+                    @include f-content;
+                    color:white;
+                    font-weight: bold;
+                    line-height: 60px;
+                    cursor: pointer;
+                    @include no-drag;                
+                }
+            }
+        }
+    }
+}

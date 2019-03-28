@@ -1,0 +1,128 @@
+.content-background{
+    width: 990px;
+    height: 829px;
+    margin-top: 15px;
+    float: right;
+    background-color: #ffffff;
+    .content-box{
+        width: calc(100% - 90px);
+        height: 799px;
+        transform: translate(-50%,-50%);
+        left: 50%;
+        top: 50%;
+        .heading-title{
+            width: 100%;                        
+            .title{
+                width: 100%;
+                font-size: 21px;
+                font-weight: bold;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: 28px;
+                letter-spacing: normal;
+                color: #aaaaaa;
+            }                        
+        }
+        .img-box{
+            width: 100%;
+            height: 450px;
+            margin-top: 15px;
+            .content-img{
+                width: 100%;
+                height: 100%;
+            }                        
+        }
+        .content-detail{
+            width: 100%;
+            height: 99px;
+            margin-top: 9px;
+            color: #aaaaaa;
+            .content-budget{
+                width: 100%;
+                .cb-icon-box{
+                    width: 18px;
+                }
+                .cb-text-box{
+                    width: calc(100% - 33px);
+                    float: right;
+                    .cb-text{
+                        width: 100%;
+                        font-size: 15px;
+                        font-weight: normal;
+                        font-style: normal;
+                        font-stretch: normal;
+                        line-height: 23px;
+                        letter-spacing: normal;
+                        color: #aaaaaa;
+                    }                                
+                }
+            }
+            .content-bus{
+                width: 100%;
+                margin-top: 9px;
+                .bus-icon-box{
+                    width: 18px;
+                }
+                .bus-text-box{
+                    width: calc(100% - 33px);
+                    float: right;
+                    .bus-text{
+                        width: 100%;
+                        font-size: 15px;
+                        font-weight: normal;
+                        font-style: normal;
+                        font-stretch: normal;
+                        line-height: 23px;
+                        letter-spacing: normal;
+                        color: #aaaaaa;
+                    }
+                }
+            }
+            .content-subway{
+                width: 100%;
+                margin-top: 9px;
+            }
+            .subway-icon-box{
+                width: 18px;
+            }
+            .subway-text-box{
+                width: calc(100% - 33px);
+                float: right;
+                .subway-text{
+                    width: 100%;
+                    font-size: 15px;
+                    font-weight: normal;
+                    font-style: normal;
+                    font-stretch: normal;
+                    line-height: 23px;
+                    letter-spacing: normal;
+                    color: #aaaaaa;
+                }
+            }
+        }
+        .content-textbox{
+            width: 100%;
+            height: 183px;
+            margin-bottom: 15px;
+            background-color: #977676;
+            .text-box{
+                width: calc(100% - 30px);
+                max-height: 153px;
+                transform: translate(-50%,-50%);
+                left: 50%;
+                top: 50%;
+                .text{
+                    width: 100%;
+                    height: 153px;
+                    font-size: 15px;
+                    font-weight: normal;
+                    font-style: normal;
+                    font-stretch: normal;
+                    line-height: 28px;
+                    letter-spacing: normal;
+                    color: #aaaaaa;
+                }    
+            }
+        }                    
+    }
+}

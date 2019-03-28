@@ -1,0 +1,326 @@
+.contain-bottom-text {
+    width: 100%;
+    .contain-test {
+        width: 300px;
+        margin-top: 60px;
+        background-color:#ffffff;
+        .contain-bottom-image {
+            width: 100%;
+            height: 60px;
+            .contain-bottom-image2 {
+                left: 50%;
+                top: 50%;
+                transform: translate(-50%,-50%);
+                .contain-bottom-image3 {
+                   
+                    .image {
+                        width: 45px;
+                        height: 45px;
+                        border-radius: 45px;
+                        line-height: 60px;
+                        background-color: #d8d8d8;  
+                    } 
+                }   
+            }
+        }
+        .contain-bottom-name {
+            width: 100%;
+            height: 60px;
+            .contain-bottom-name2 {
+                left: 50%;
+                top: 50%;
+                transform: translate(-50%,-50%);
+                .contain-bottom-name3 {
+        
+                    .name {
+                        max-width: 300px;
+                        font-size: 18px;
+                        font-weight: bold;
+                        font-style: normal;
+                        font-stretch: normal;
+                        line-height: 60px;
+                        letter-spacing: normal;
+                        text-align: center;
+                        color: #5a5a5a;
+                    }
+                }
+            }
+        }
+        .contain-bottom-password {
+            width: 100%;
+            height: 60px;
+            .contain-bottom-password2 {
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-50%);
+                .contain-bottom-password3 {
+                
+                    .password {
+                        max-width: 300px;
+                        font-size: 18px;
+                        font-weight: bold;
+                        font-style: normal;
+                        font-stretch: normal;
+                        line-height: 60px;
+                        letter-spacing: normal;
+                        text-align: center;
+                        color: #5a5a5a;
+                    }
+                }
+            }
+        }
+        .contain-bottom-confirm {
+            width: 100%;
+            height: 60px;
+            .contain-bottom-confirm2 {
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-50%);
+                .contain-bottom-confirm3 {
+                
+                    .confirm {
+                        max-width: 300px;
+                        font-size: 18px;
+                        font-weight: bold;
+                        font-style: normal;
+                        font-stretch: normal;
+                        line-height: 60px;
+                        letter-spacing: normal;
+                        text-align: center;
+                        color: #5a5a5a;
+                    }
+                }
+            }
+        }
+        .contain-bottom-email {
+            width: 100%;
+            height: 60px;
+            .contain-bottom-email2 {
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-50%);
+                .contain-bottom-email3 {
+                
+                    .email {
+                        max-width: 300px;
+                        font-size: 18px;
+                        font-weight: bold;
+                        font-style: normal;
+                        font-stretch: normal;
+                        line-height: 60px;
+                        letter-spacing: normal;
+                        text-align: center;
+                        color: #5a5a5a;
+                    }
+                }
+            }
+        }
+        .contain-bottom-introduce {
+            width: 100%;
+            height: 100px;
+            .contain-bottom-introduce2 {
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-50%);
+                .contain-bottom-introduce3 {
+                        
+                    .introduce {
+                        max-width: 300px;
+                        height: 90px;
+                        font-size: 18px;
+                        font-weight: bold;
+                        font-style: normal;
+                        font-stretch: normal;
+                        line-height: 100px;
+                        letter-spacing: normal;
+                        text-align: center;
+                        color: #5a5a5a;
+                    }
+                }
+            }
+        }
+        .contain-blank {
+            width: 100%;
+            height: 70px;
+        }
+    }
+    .contain-border-profile {
+        width: 900px;
+        margin-top: 60px;
+        background-color: #ffffff;
+        .contain-border-profile2 {
+            width: 100%;
+            height: 60px;
+            .contain-border-profile3 {
+                left: 2.5%;
+                top: 50%;
+                transform: translate(-2.5%,-50%);
+                .contain-border-profile4 {
+                    
+                    .profile {
+                        font-size: 18px;
+                        font-weight: bold;
+                        font-style: normal;
+                        font-stretch: normal;
+                        line-height: 60px;
+                        letter-spacing: normal;
+                        color: #3f9af1;
+                    }
+                }
+            }            
+        }
+        .contain-border-name {
+            width: 900px;
+            .contain-border-name2 {
+                width: 100%;
+                height: 60px;
+                .contain-border-name3 {
+                    left: 2.5%;
+                    top: 50%;
+                    transform: translate(-2.5%,-50%);
+                    .contain-border-name4 {
+                        width: 600px;
+                        height: 45px;
+                        .name {
+                            width: 598px;
+                            border: solid 1px #979797;
+                            font-family: AppleSDGothicNeo;
+                            font-size: 18px;
+                            font-weight: bold;
+                            font-style: normal;
+                            font-stretch: normal;
+                            line-height: 41px;
+                            letter-spacing: normal;
+                            color: #5a5a5a;
+                            .test {
+                                width: 100%;
+                                height: 100%;
+                                line-height: 45px;
+                                color: white;
+                                word-break: normal; 
+                                word-wrap: break-word;
+                                white-space: normal;
+                            }
+                        }
+                    }
+                }            
+            }
+        }
+        .contain-border-password {
+            width: 900px;
+            .contain-border-password2 {
+                width: 100%;
+                height: 60px;
+                .contain-border-password3 {
+                    left: 2.5%;
+                    top: 50%;
+                    transform: translate(-2.5%,-50%);
+                    .contain-border-password4 {
+                        width: 600px;
+                        height: 45px;
+                        .password {
+                            width: 598px;
+                            border: solid 1px #979797;
+                            font-family: AppleSDGothicNeo;
+                            font-size: 18px;
+                            font-weight: bold;
+                            font-style: normal;
+                            font-stretch: normal;
+                            line-height: 41px;
+                            letter-spacing: normal;
+                            color: #5a5a5a;
+                        }
+                    }
+                }            
+            }
+        }
+        .contain-border-check {
+            width: 900px;
+            .contain-border-check2 {
+                width: 100%;
+                height: 60px;
+                .contain-border-check3 {
+                    left: 2.5%;
+                    top: 50%;
+                    transform: translate(-2.5%,-50%);
+                    .contain-border-check4 {
+                        width: 600px;
+                        height: 45px;
+                        .confirm {
+                            width: 598px;
+                            border: solid 1px #979797;
+                            font-family: AppleSDGothicNeo;
+                            font-size: 18px;
+                            font-weight: bold;
+                            font-style: normal;
+                            font-stretch: normal;
+                            line-height: 41px;
+                            letter-spacing: normal;
+                            color: #5a5a5a;
+                        }
+                    }
+                }            
+            }
+        }
+        .contain-border-email {
+            width: 900px;
+            .contain-border-email2 {
+                width: 100%;
+                height: 60px;
+                .contain-border-email3 {
+                    left: 2.5%;
+                    top: 50%;
+                    transform: translate(-2.5%,-50%);
+                    .contain-border-email4 {
+                        width: 600px;
+                        height: 45px;
+                        .email {
+                            width: 598px;
+                            border: solid 1px #979797;
+                            font-family: AppleSDGothicNeo;
+                            font-size: 18px;
+                            font-weight: bold;
+                            font-style: normal;
+                            font-stretch: normal;
+                            line-height: 41px;
+                            letter-spacing: normal;
+                            color: #5a5a5a;
+                        }
+                    }
+                }            
+            }
+        }
+        .contain-border-introduce {
+            width: 900px;
+            .contain-border-introduce2 {
+                width: 100%;
+                height: 100px;
+                .contain-border-introduce3 {
+                    left: 2.5%;
+                    top: 50%;
+                    transform: translate(-2.5%,-50%);
+                    .contain-border-introduce4 {
+                        width: 600px;
+                        height: 100px;
+                        .introduce {
+                            width: 598px;
+                            border: solid 1px #979797;
+                            font-family: AppleSDGothicNeo;
+                            font-size: 18px;
+                            font-weight: bold;
+                            font-style: normal;
+                            font-stretch: normal;
+                            line-height: 96px;
+                            letter-spacing: normal;
+                            color: #5a5a5a;
+                        }
+                    }
+                }            
+            }
+        }
+        .contain-blank {
+            width: 100%;
+            height: 70px;
+        }
+    }
+}

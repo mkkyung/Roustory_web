@@ -1,0 +1,85 @@
+//landing scss import
+@import 'landing';
+
+//font cdn
+@import url(https://fonts.googleapis.com/earlyaccess/notosanskr.css);
+$font-stack: 'Noto Sans KR', sans-serif;
+
+.review-contain{
+    width: 100%;
+    .review-contain2{
+        width: 1200px;
+        transform: translate(-50%,0);
+        left: 50%;
+        .review-title{
+            width: 100%;
+            margin-top: 60px;
+            font-size: 24px;
+            font-weight: bold;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            @include color-b;
+        }
+        .review-category-contain{
+            margin-top: 30px;
+            .review-category_non_active{
+                font-size: 18px;
+                font-weight: bold;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: normal;
+                letter-spacing: normal;
+                @include color-b;
+                @include no-drag;
+                cursor: pointer;
+/*                 &:active {
+                    @include color-m;
+                } */
+            }
+            .review-category_active{
+                font-size: 18px;
+                font-weight: bold;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: normal;
+                letter-spacing: normal;
+                @include color-m;
+                @include no-drag;
+                cursor: pointer;
+            }
+            .review-category-option-contain{
+                width: 100px;
+                .review-category-select{
+                    width: 100%;
+                    height: 21px;
+                    border: solid 1px #ff8a01;
+                    font-size: 15px;
+                    font-weight: bold;
+                    font-style: normal;
+                    font-stretch: normal;
+                    line-height: normal;
+                    letter-spacing: normal;
+                    background-color: #ffffff;
+                    text-align-last:center;
+                    @include color-b;
+                    .review-category-option{
+                        width: 100%;
+                        height: 21px;
+                        font-size: 15px;
+                        font-weight: bold;
+                        font-style: normal;
+                        font-stretch: normal;
+                        line-height: normal;
+                        letter-spacing: normal;
+                        background-color: #ffffff;
+                        @include color-b;
+                        text-align:center;
+                    }
+
+                }
+            }
+        }
+    }
+}

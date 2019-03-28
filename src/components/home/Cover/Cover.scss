@@ -1,0 +1,55 @@
+@import 'landing';
+@import 'style.scss';
+
+.home-cover-contain{
+    width: 100%;
+    height: 418px;
+    background-color: #323439;
+    .home-cover-contain2{
+        width: 1200px;
+        height: 100%;
+        left: 50%;
+        transform: translate(-50%,0);
+        .cover-category{
+            margin-top:30px;
+            .category{
+                @include f-sub-title2;
+                @include no-drag;
+                color: white;
+                cursor: pointer;   
+                line-height: 33px   
+            }
+        }
+        .cover-content-contain{
+            width: 100%;
+            height: 165px;
+            margin-top: 30px;
+            margin-bottom: 40px;
+            .cover-content{
+                width: 100%;
+                height: 100%;
+                @include f-header;
+                line-height: 45px;
+                color: white;
+                word-break: normal; 
+                word-wrap: break-word;
+                white-space: normal;
+                @include no-drag;
+            }
+        }
+        .cover-button{
+            width: 300px;
+            height: 60px;
+            background-color: #ff8a01;
+            cursor: pointer;
+            .button-text{
+                width: 100%;
+                line-height: 60px;
+                color: white;
+                text-align: center;
+                font-size: 30px;
+                @include no-drag;
+            }
+        }
+    }
+}

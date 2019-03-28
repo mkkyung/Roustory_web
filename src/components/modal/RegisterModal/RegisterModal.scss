@@ -1,0 +1,134 @@
+//@import 'utils';
+@import 'landing';
+
+.form {
+    background: white;
+    padding: 2rem;
+    position: relative;
+    padding-top: 2.5rem;
+    width: 20rem;
+    .close {
+      line-height: 2rem;
+      font-size: 2rem;
+      position: absolute;
+      right: 1rem;
+      top: 0.5rem;
+      cursor: pointer;
+      &:hover {
+        color: #525252;
+      }
+    }
+    .title {
+      font-size: 1.25rem;
+      font-weight: 500;
+    }
+    .facebook-login {
+      margin-top: 15px;
+      width: 100%;
+      border: 0px;
+      padding: 0px;
+      background-color: #29487d;
+      color: white;
+      font-size: 15px;
+      padding-top: 3px;
+      padding-bottom: 3px;
+      font-weight: bold;
+      cursor: pointer;
+      line-height: 24px;
+      &:hover {
+        background: #ff8a01;
+       -webkit-background: #ff8a01;
+      }
+    }
+    
+    input {
+      width: 100%;
+      font-size: 1.25rem;
+      margin-top: 0.5rem;
+      border: none;
+      border-bottom: 1px solid #525252;
+      padding: 0.25rem;
+      outline: none;
+      border-radius: 4px;
+    }
+    .divider{
+      text-transform: uppercase;
+      color: #5a5a5a;
+      font-weight: 600;
+      margin: 20px 0;
+      margin-bottom: 20px;
+      position: relative;
+      &:before {
+          content: "";
+          width: 42%;
+          position: absolute;
+          background-color: #5a5a5a;
+          height: 1px;
+          left: 0;
+          top: 6px;
+          opacity: 0.8;
+      }
+      &:after {
+          content: "";
+          width: 42%;
+          position: absolute;
+          background-color: #5a5a5a;
+          height: 1px;
+          left: 0;
+          top: 6px;
+          opacity: 0.8;
+      }
+    }
+    .facebookLink {
+      color: #385185;
+      justify-content: center;
+      margin-bottom: 25px;
+      cursor: pointer;
+      border: 0;
+      background-color: white;
+      font-size: 14px;
+      i {
+          margin-right: 9px;
+      }
+      &:focus,
+      &:active {
+          outline: none;
+      }
+    }
+    .forgotLink {
+      font-size: 12px;
+      color: #5a5a5a;
+    }
+    .error {
+      margin-top: 0.5rem;
+      margin-bottom: 0.5rem;
+      color: #fa244a;
+      text-align: center;
+      font-size: 0.85rem;
+    }
+    .login {
+      background-color: white;
+      color:#ff8a01;
+      width: 150px;
+      left: 50%;
+      transform: translate(-50%,0);
+      background: #5a5a5a;
+      text-align: center;
+      color: white;
+      font-weight: bold;
+      padding: 3px;
+      cursor: pointer;
+      margin-top: 15px;
+      font-size: 15px;
+      line-height: 24px;
+      &:hover {
+        background: #ff8a01;
+        color:white
+      }
+      &:active {
+        background: #ff8a01;
+        color:white
+      }
+    }
+  }
+  

@@ -1,0 +1,322 @@
+.background{
+    width: 100%;    
+    background-color: #fafafa;
+    .center{
+        width: 1200px;
+        margin-top: 65px;
+        margin-bottom: 65px;
+        transform: translate(-50%,0);
+        left: 50%;
+        .top-box{
+            width: 100%;            
+            .review-profile{
+                width: 180px;
+                height: 180px;
+                border-radius: 10px;
+                background-color: #ffffff;
+                box-shadow: 1px 1px 0 0 rgba(238, 238, 238, 0.5);            
+                .profile-box{
+                    width: calc(100% - 90px);
+                    height: calc(100% - 47px);
+                    transform: translate(-50%,-50%);
+                    left: 50%;
+                    top: 50%;
+                    .photo-box{
+                        width: 100%;
+                        height: 90px;
+                        border-radius: 100%;
+                        .user-photo{
+                            width: 100%;
+                            height: 90px;
+                            border-radius: 100%;
+                        }   
+                    }
+                    .name-box{
+                        width: 100%;
+                        margin-top: 15px;            
+                        .review-profile-username{
+                            width: 100%;
+                            text-align: center;
+                            font-size: 18px;
+                            font-weight: normal;
+                            font-style: normal;
+                            font-stretch: normal;
+                            line-height: 28px;
+                            letter-spacing: normal;
+                            color: #5a5a5a;                      
+                        }
+                    }                    
+                }    
+            }
+            .review-title{
+                width: calc(100% - 210px);
+                height: 180px;
+                background-color: #ffffff;
+                box-shadow: 1px 1px 0 0 rgba(238, 238, 238, 0.5);
+                float: right;            
+                .title-box{
+                    width: calc(100% - 30px);
+                    transform: translate(-50%,-50%);
+                    left: 50%;
+                    top: 50%;
+                    .main-box{
+                        width: 100%;
+                        .main-title{
+                            width: 100%;
+                            font-size: 21px;
+                            font-weight: bold;
+                            font-style: normal;
+                            font-stretch: normal;
+                            line-height: 25px;
+                            letter-spacing: normal;
+                            color: #5a5a5a;
+                        }    
+                    }
+                    .sub-box{
+                        width: 100%;
+                        max-height: 111px;
+                        overflow: auto;
+                        margin-top: 15px;
+                        .sub-title{
+                            width: 100%;
+                            height: 111px;                          
+                            font-size: 18px;
+                            font-weight: normal;
+                            font-style: normal;
+                            font-stretch: normal;
+                            line-height: 30px;
+                            letter-spacing: normal;
+                            color: #5a5a5a;
+                            text-align: left;
+                        }
+                    }                    
+                }
+            }
+        }
+        .content-smallbox{
+            width: 180px;
+            height: 180px;
+            border-radius: 10px;
+            margin-top: 15px;
+            background-color: #ffffff;
+            box-shadow: 1px 1px 0 0 rgba(238, 238, 238, 0.5);
+            .small-borderbox{
+                width: calc(100% - 30px);                    
+                transform: translate(-50%,-50%);
+                left: 50%;
+                top: 50%;
+                .like-box{
+                    width: 100%;
+                    float: left;
+                    color: #aaaaaa;
+                    .l-icon-box{
+                        width: 18px;
+                        height: 18px;
+                        .l-icon{
+                            font-size: 18px;
+                            line-height: 18px;
+                        }
+                    }
+                    .l-text-box{
+                        width: 117px;
+                        height: 18px;
+                        float: right;                            
+                        .l-text{
+                            font-size: 15px;
+                            font-weight: normal;
+                            font-style: normal;
+                            font-stretch: normal;
+                            text-align: left;
+                            line-height: 18px;                                
+                            letter-spacing: normal;
+                        }
+                    }
+                }
+                .location-box{
+                    width: 100%;
+                    float: left;
+                    margin-top: 15px;
+                    color: #aaaaaa;
+                    .lo-icon-box{
+                        width: 18px;
+                        height: 18px;
+                        .lo-icon{
+                            font-size: 18px;
+                            line-height: 18px;
+                        }
+                    }
+                    .lo-text-box{
+                        width: 117px;
+                        height: 18px;
+                        float: right;
+                        .lo-text{
+                            font-size: 15px;
+                            font-weight: normal;
+                            font-style: normal;
+                            font-stretch: normal;
+                            text-align: left;
+                            line-height: 18px;                                
+                            letter-spacing: normal;
+                        }
+                    }
+                }                    
+                .budget-box{
+                    width: 100%;
+                    float: left;
+                    margin-top: 15px;
+                    color: #aaaaaa;
+                    .b-icon-box{
+                        width: 18px;
+                        height: 18px;
+                        .b-icon{
+                            font-size: 18px;
+                            line-height: 18px;
+                        }
+                    }
+                    .b-text-box{
+                        width: 117px;
+                        height: 18px;
+                        float: right;
+                        .b-text{
+                            font-size: 15px;
+                            font-weight: normal;
+                            font-style: normal;
+                            font-stretch: normal;
+                            text-align: left;
+                            line-height: 18px;                                
+                            letter-spacing: normal;
+                        }
+                    } 
+                }
+                .save-box{
+                    width: 100%;
+                    height: 30px;
+                    margin-top: 30px;
+                    background-color: #ff8a01;
+                    cursor: pointer;
+                    .save-borderbox{
+                        width: 100%;
+                        transform: translate(-50%,-50%);
+                        left: 50%;
+                        top: 50%;
+                        .s-textbox{     
+                            font-size: 18px;
+                            font-weight: bold;
+                            font-style: normal;
+                            font-stretch: normal;
+                            line-height: 18px;
+                            letter-spacing: normal;
+                            text-align: center;
+                            color: #ffffff;
+                        }
+                    }
+                }
+            }
+        }
+        .content-selectbox{
+            width: 990px;
+            height: 60px;
+            margin-top: 15px;
+            margin-left: 30px;
+            background-color: #ffffff;
+            box-shadow: 1px 1px 1px 0 rgba(238, 238, 238, 0.5);
+            .review {
+                width: calc(100% - 495px);
+                cursor: pointer;
+                transform: translate(0, -50%);
+                top: 50%;
+                $activate-navigation-color: #ff8a01;
+                $non-activate-navigation-color: #aaaaaa;
+
+                color: $non-activate-navigation-color;
+                &:visited {
+                    color: $non-activate-navigation-color;
+                }
+
+                &--is-activate {
+                    color: $activate-navigation-color;
+                    &:visited {
+                        color: $activate-navigation-color;
+                    }
+                }
+                .review-borderbox{
+                    width: calc(100% - 371px);
+                    transform: translate(-50%, 0);
+                    left: 50%;                   
+                    .r-icon-box{
+                        width: calc(100% - 94px);
+                        .r-icon{
+                            font-size: 30px;
+                            line-height: 30px;                                
+                        }                        
+                    }
+                    .r-text-box{
+                        width: 79px;
+                        float: right;                             
+                        .r-text{
+                            font-size: 20px;
+                            font-weight: bold;
+                            font-style: normal;
+                            font-stretch: normal;
+                            line-height: 30px;
+                            text-align: center;
+                            letter-spacing: normal;
+                        }                            
+                    }
+                }
+            }            
+            .divider{
+                width: 1px;
+                height: 100%;
+                background-color: #aaaaaa;
+            }
+            .schedule {
+                width: calc(100% - 496px);
+                cursor: pointer;
+                transform: translate(0,-50%);                
+                top: 50%;
+
+                $activate-navigation-color: #ff8a01;
+                $non-activate-navigation-color: #aaaaaa;
+
+                color: $non-activate-navigation-color;
+                &:visited {
+
+                    color: $non-activate-navigation-color;
+                }
+
+                &--is-activate {
+                    color: $activate-navigation-color;
+                    &:visited {
+                        color: $activate-navigation-color;
+                    }
+                }
+            }    
+            .schedule-borderbox{
+                width: calc(100% - 351px);
+                transform: translate(-50%, 0);
+                left: 50%;
+                .s-icon-box{
+                    width: calc(100% - 112px);
+                    .s-icon{
+                        font-size: 30px;
+                        line-height: 30px;
+                    }
+                }
+                .s-text-box{
+                    width: 97px;
+                    float: right;
+                    .s-text{
+                        font-size: 20px;
+                        font-weight: bold;
+                        font-style: normal;
+                        font-stretch: normal;
+                        line-height: 30px;
+                        letter-spacing: normal;
+                    }                            
+                }
+            }                                                
+        }
+    }
+}
+    

@@ -1,0 +1,109 @@
+@import '~open-color/open-color';
+@import '~include-media/dist/include-media';
+
+
+$size:100%;
+
+$breakpoints: (
+  small: 376px, 
+  medium: 768px, 
+  large: 1024px, 
+  huge: 1200px
+);
+
+@mixin cen-xy {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+  
+@mixin cen-x {
+    left:50%;
+    transform: translate(-50%,0)
+}
+
+@mixin cen-y {
+    top:50%;
+    transform: translate(0,-50%)
+}
+
+@mixin inside-x {
+    width:100%;
+}
+
+@mixin inside-xy {
+    width:100%;
+    height: 100%;
+}
+
+@mixin inside-y {
+    height: 100%;
+}
+
+@mixin cursor {
+    cursor: pointer;
+}
+
+@mixin color-m {
+    color:#ff8a01;
+}
+
+@mixin color-b {
+    color: #5a5a5a;
+}
+
+@mixin color-w {
+    color:white;
+}
+
+@mixin f-logo {
+    font-size: 36px;
+    font-weight: bold;
+    line-height: normal;
+    font-style: italic;
+}
+
+@mixin f-sub-logo {
+    font-size: 12px;
+    line-height: normal;
+    font-style: italic;
+}
+
+@mixin f-title {
+    font-size: 30px;
+    font-weight: bold;
+    line-height: normal;
+}
+
+@mixin f-sub-title2 {
+    font-size: 24px;
+    font-weight: normal;
+    line-height: normal;
+}
+
+@mixin f-sub-title {
+    font-size: 21px;
+    font-weight: normal;
+    line-height: normal;
+}
+
+@mixin f-header {
+    font-size: 18px;
+    font-weight: normal;
+    line-height: normal;
+}
+
+@mixin f-content {
+    font-size: 15px;
+    font-weight: normal;
+    line-height: normal;
+}
+
+@mixin no-drag {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none; 
+    user-select: none 
+}

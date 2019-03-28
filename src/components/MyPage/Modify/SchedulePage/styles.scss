@@ -1,0 +1,83 @@
+.Schedule-list{
+    width: 100%;
+    
+    .schedule-box-border {
+        width: 250px;
+        margin-bottom: 30px;
+        margin-top: 60px;
+        .schedule-box {
+            width: 250px;   
+            height: 30px;
+            background-color: #ffffff;
+            .user-box {
+                width: calc(100% - 18px);
+                transform: translate(-50%,-50%);
+                left: 50%;
+                top: 50%;
+                color: #aaaaaa;
+            .user-info {
+                    width: 18px;
+                    height: 18px;
+                    .user-img {
+                        width: 18px;
+                        height: 18px;
+                        border-radius: 18px;
+                        background-color: #d8d8d8; 
+                    }
+                }
+                .user-name {
+                    margin-left: 5px;
+                    width: calc(100% - 24px);
+                    height: 18px;
+                    float: right;
+                    .user-name2 {
+                        font-size: 12px;
+                        line-height: 18px;
+                        font-style: normal;
+                        font-weight: bold;
+                        font-stretch: normal;   
+                        letter-spacing: normal;
+                        color: #5a5a5a;
+                    }
+                }
+            }
+        }
+        .titile-img {
+            width: 100%;
+            height: 240px;
+            background-color: orange;
+            cursor: pointer;
+            .img-file {
+                width: 250px; 
+                height: 240px;
+            }
+        }
+        .title-box {
+            width: 100%;
+            height: 30px;
+            background-color: white;
+            .content-text {
+                width: 100%;
+                .content-title {
+                    margin-right: 10px;
+                }
+                .content-card {
+                font-size: 15px;
+                font-weight: bold;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: 30px;
+                letter-spacing: normal;
+                color: #5a5a5a;
+                text-align: center;
+                }
+            }
+        }
+    }
+}    
+.paging-box{
+    width: 100%;
+    margin-top: 60px;
+    transform: translate(-50%, -50%);
+    left: 50%;           
+}

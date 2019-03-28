@@ -1,0 +1,95 @@
+.modify1 {
+    width: 100%;
+    background-color: #fafafa;
+    .modify2 {
+        width: 1200px;
+        margin-top: 60px;
+        transform: translate(-50%,0);
+        left: 50%;
+        .contain {
+            width: 100%;
+            .contain2 {
+                width: 100%;
+                .contain3 {
+                    width: 100%;
+                    font-family: AppleSDGothicNeo;
+                    font-size: 24px;
+                    font-weight: bold;
+                    font-style: normal;
+                    font-stretch: normal;
+                    line-height: 29px;
+                    letter-spacing: normal;
+                    color: #5a5a5a;
+                }
+            }
+        }
+        .contain-bottom {
+            width: 100%;
+            margin-top: 30px;
+            .contain-bottom2 {
+                width: 100%;
+                .selectList {
+                    width: 70px;
+                    cursor: pointer;
+                    $activate-navigation-color: #ff8a01;
+                    $non-activate-navigation-color: #aaaaaa;
+
+                    color: $non-activate-navigation-color;
+                    &:visited {
+                        color: $non-activate-navigation-color;
+                    }
+
+                    &--is-activate {
+                        color: $activate-navigation-color;
+                        &:visited {
+                            color: $activate-navigation-color;
+                        }
+                    }
+                    .selectList-schedule {
+                        width: 100%;
+                        .plan-schedule {
+                            font-size: 18px;
+                            font-weight: bold;
+                            font-style: normal;
+                            font-stretch: normal;
+                            line-height: 21px;
+                            letter-spacing: normal;
+                            margin-right: 15px;
+                        }
+                    }
+                }
+                .memberList {
+                    width: 120px;
+                    cursor: pointer;
+                    $activate-navigation-color: #ff8a01;
+                    $non-activate-navigation-color: #aaaaaa;
+    
+                    color: $non-activate-navigation-color;
+                    &:visited {
+    
+                        color: $non-activate-navigation-color;
+                    }
+    
+                    &--is-activate {
+                        color: $activate-navigation-color;
+                        &:visited {
+                            color: $activate-navigation-color;
+                        }
+                    }
+                    .members-modify {
+                        width: 100%;
+                        .member-modify {
+                                font-size: 18px;
+                                font-weight: bold;
+                                font-style: normal;
+                                font-stretch: normal;
+                                line-height: 21px;
+                                letter-spacing: normal;
+                        } 
+                    }
+                }
+                
+            }
+        }
+    }
+}
